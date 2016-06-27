@@ -1,0 +1,94 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{marvosym}
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage{titlesec}					%custom \section
+
+% Settings for hyperlinks
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% Footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{June 2016}
+
+% Sections by: http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+%%
+% Document
+%%
+\begin{document}
+
+% dont number pages
+\pagestyle{empty}
+
+%%
+% Title Section
+%%
+\centering{\Huge Azaan Hassan}
+\\[25pt]
+\begin{tabular}{rl}
+    \textsc{Location} & Addu, Maldives (\textsc{gmt} +05:00) \\
+    \textsc{Phone} & (+91) 890 430 8580 \\
+    \textsc{email} & hello@azaan.io
+    \\[12pt]
+    \textsc{Website} & \url{https://azaan.io/} \\
+    \textsc{Github} & \url{https://github.com/aeonaxan/}
+\end{tabular}
+\\[25pt]
+
+%%
+% Work Experience Section
+%%
+\section{Work Experience}
+\begin{tabular}{ p{2.5cm} | p{11cm} }
+    \emph{Current} & Software Engineer at \textsc{Momoe Technologies}, Bangalore \\
+    \textsc{June 2015} 
+        & \footnotesize{• An offline payment startup founded in Bangalore. Worked as an integral part of a small engineering team to design and implement the various software systems required.} \\
+        & \footnotesize{• Designed, Built and trained an ML system for real time fraud from detection from scratch.} \\
+        & \footnotesize{• Heavily involved in designing and implementing an automated system to handle merchant settlements, refunds and manual adjustments.} \\
+        & \footnotesize{\textsc{Stack: } Java, MySQL, Nginx, ZeroMQ} \\
+    \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%%
+% Education Section
+%
+\section{Education}
+\begin{tabular}{ p{2.5cm} | p{11cm} }	
+ \textsc{June} 2015 & Bachelors of Technology in \textsc{Computer Science} \\ 
+ \textsc{August} 2011 & \textsc{Christ University}, Bangalore\\
+ & \footnotesize{• Took courses in Artificial Intelligence, Cryptography and Network Security, Design and Analysis of Algorithms, Computer Networks, Database Management Systems, Advanced Java Programming, Numerical Methods} \\
+ & \footnotesize{CGPA 3.6} \\
+ \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%%
+% Development Skills
+%%
+\section{Technologies}
+\begin{tabular}{rp{8cm}}
+ Proficient With:& Python, Java, Javascript, My\textsc{sql}, \textsc{html}, \textsc{css/less}, Linux, Git\\
+Intermediate:& Android, Haskell, \textsc{php}, \textsc{C}, \textsc{cvs}\\
+Basic: & Lisp, Clojure, Ruby, \textsc{C\#}, \textsc{C++}, Salt,     {\LaTeX}\\
+\\
+Paradigms and Technologies: & Functional Programming, Lambda Calculus, ML Techniques, Microservices, Scalable Architecture, Secure Systems
+\end{tabular}
+
+%%
+% Passionate About
+%%
+\section{Passionate About}
+Football, Neuroscience, Programming Languages, Artificial Intelligence, Emergence And Complexity, Computational Theory, Astrophysics, \texttt{science.*} \\
+
+\\[40pt]
+\footnotesize{June 2016}
+
+\end{document}
+
